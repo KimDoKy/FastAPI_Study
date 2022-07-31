@@ -20,14 +20,7 @@
   - CICD 파이프라인
 
 ---
-## 프로젝트 파일 구조
 
-- Project Folder
-  - venv
-  - app
-    - database
-    - router
-    - common
-      - config.py
-      - consts.py
-    - main.py
+m1 아키텍처의 차이로 몇몇 동작하지 않는 부분이 있어서 docker로 구조를 변경하여 진행
+
+- [up and running with fastapi and docker](https://www.jeffastor.com/blog/up-and-running-with-fastapi-and-docker)
