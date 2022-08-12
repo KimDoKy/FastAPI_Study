@@ -2,8 +2,8 @@ FROM python:3.8-slim-buster
 
 WORKDIR /backend
 
-ENV FASTAPICODE 1
-ENV FASTAPIBUFFERED 1
+ENV PYTHONDONTWRITEBYTECODE 1
+ENV PYTHONBUFFERED 1
 
 RUN apt-get update \
     && apt-get -y install netcat gcc postgresql \
