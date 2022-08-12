@@ -12,5 +12,6 @@ RUN apt-get update \
 RUN pip install --upgrade pip
 COPY ./requirements.txt /backend/requirements.txt
 RUN pip install -r requirements.txt
+RUN pip install psycopg2-binary
 
 COPY . /backend

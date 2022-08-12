@@ -17,7 +17,7 @@ config = alembic.context.config
 fileConfig(config.config_file_name)
 logger = logging.getLogger("alembic.env")
 
-def run_migrations_obline() -> None:
+def run_migrations_online() -> None:
     """
     Run migrations in 'online' mode
     """
