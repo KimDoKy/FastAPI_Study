@@ -1,9 +1,7 @@
 """create_main_tables
-
 Revision ID: 743ed34c9e41
 Revises:
 Create Date: 2022-08-12 15:29:25.259205
-
 """
 from alembic import op
 import sqlalchemy as sa
