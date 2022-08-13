@@ -27,7 +27,7 @@ class CleaningCreate(CleaningBase):
 
 # 업데이트할 수 있는 속성 (PUT)
 class CleaningUpdate(CleaningBase):
-    cleaning_type: Optional[cleaningType]
+    cleaning_type: Optional[CleaningType]
 
 
 # 데이터베이스에서 나오는 모든 리소스에 있는 속성
